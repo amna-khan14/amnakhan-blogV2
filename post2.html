@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning HTML and CSS | Amna Khan Blog</title>
+  <meta
+    name="description"
+    content="A beginner post about learning HTML and CSS to design websites."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Amna Khan Blog</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-main">
+    <div class="article-wrap">
+      <a href="index.html#articles" class="back-link">← Back to all posts</a>
+
+      <header class="article-header">
+        <span class="badge">Learning Notes</span>
+        <h1>Learning HTML &amp; CSS</h1>
+        <p class="article-meta">By Amna Khan • 27 Mar 2026 • 7 min read</p>
+        <p class="article-intro">
+          I am learning how to design websites using HTML and CSS. This post is about the basic
+          things I practiced and what helped me understand web design as a beginner.
+        </p>
+      </header>
+
+      <article class="article-content">
+        <h2>Starting with simple HTML structure</h2>
+        <p>
+          I first learned how to create a clean structure with headings, paragraphs, links, and
+          sections. Instead of trying everything at once, I practiced a small layout many times.
+        </p>
+        <p>
+          This helped me understand where content should go and how a page is built from top to
+          bottom.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>basic-page.html</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-key">&lt;main&gt;</span>
+  <span class="token-key">&lt;section&gt;</span>
+    <span class="token-key">&lt;h1&gt;</span>Learning HTML &amp; CSS<span class="token-key">&lt;/h1&gt;</span>
+    <span class="token-key">&lt;p&gt;</span>I am learning website design step by step.<span class="token-key">&lt;/p&gt;</span>
+  <span class="token-key">&lt;/section&gt;</span>
+
+  <span class="token-key">&lt;section&gt;</span>
+    <span class="token-key">&lt;h2&gt;</span>My Practice Links<span class="token-key">&lt;/h2&gt;</span>
+    <span class="token-key">&lt;a</span> href=<span class="token-str">"https://github.com/amna-khan14"</span><span class="token-key">&gt;</span>GitHub<span class="token-key">&lt;/a&gt;</span>
+  <span class="token-key">&lt;/section&gt;</span>
+<span class="token-key">&lt;/main&gt;</span></code></pre>
+        </div>
+
+        <h2>How CSS made my page better</h2>
+        <p>
+          CSS helped me improve colors, spacing, and readability. I learned that even a small style
+          file can change a plain page into a clean and friendly layout.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>simple-style.css</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-key">body</span> {
+  background: <span class="token-str">#f5f5f0</span>;
+  color: <span class="token-str">#1a1a2e</span>;
+  font-family: <span class="token-str">Georgia</span>, serif;
+  line-height: <span class="token-type">1.7</span>;
+}
+
+<span class="token-key">h1</span> {
+  color: <span class="token-str">#059669</span>;
+}
+
+<span class="token-key">.box</span> {
+  background: <span class="token-str">#ffffff</span>;
+  border: <span class="token-type">1px</span> solid <span class="token-str">#e5e5dc</span>;
+  border-radius: <span class="token-type">12px</span>;
+  padding: <span class="token-type">16px</span>;
+}</code></pre>
+        </div>
+
+        <h3>Beginner habits that helped me</h3>
+        <ul>
+          <li>Write HTML first, then apply CSS slowly.</li>
+          <li>Use meaningful class names instead of random short names.</li>
+          <li>Test after every small change.</li>
+          <li>Practice one concept at a time.</li>
+        </ul>
+
+        <h2>My next learning step</h2>
+        <p>
+          Next I want to practice responsive design and better CSS layout with Flexbox. After that,
+          I will continue with simple JavaScript interactions.
+        </p>
+      </article>
+
+      <section class="related-posts">
+        <h3>Related Posts</h3>
+        <div class="related-links">
+          <a href="post1.html">My First Blog</a>
+          <a href="post4.html">My Frontend Study Plan as a Beginner</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Amna Khan's Blog</p>
+      <div class="social-links">
+        <a href="https://github.com/amna25ce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://amnakhan10011.github.io/amnakhan10011/#home" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="#">X</a>
+      </div>
+      <div class="quick-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

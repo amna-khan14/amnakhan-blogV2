@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amna Khan Blog | Beginner Developer Journal</title>
+  <meta
+    name="description"
+    content="A beginner-friendly personal developer blog by Amna Khan."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Amna Khan Blog's Post</a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-main">
+          <p class="eyebrow">University Lab Task</p>
+          <h1>Amna Khan - Lab Task</h1>
+          <p class="subtitle">
+            This website is my university lab task. I created it to practice HTML, CSS, and
+            basic JavaScript in a simple and understandable way. Each post shares what I built,
+            what problems I faced, and what I learned during my practice.
+          </p>          <div class="hero-actions">
+            <a href="#articles" class="btn btn-primary">Explore Articles</a>
+            <a href="#about" class="btn btn-secondary">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-posts-strip">
+      <div class="container all-posts-wrap">
+        <div class="all-posts-head">
+          <h2>View All Posts</h2>
+          <p>Quick list of all articles. Use this section when you want to open any post directly.</p>
+        </div>
+        <div class="all-posts-links">
+          <a href="post1.html">
+            <strong>1. My First Blog</strong>
+            <span>Beginner Project • 6 min read</span>
+          </a>
+          <a href="post2.html">
+            <strong>2. Learning HTML &amp; CSS</strong>
+            <span>Learning Notes • 7 min read</span>
+          </a>
+          <a href="post3.html">
+            <strong>3. My Journey</strong>
+            <span>Personal Journey • 6 min read</span>
+          </a>
+          <a href="post4.html">
+            <strong>4. My Frontend Study Plan as a Beginner</strong>
+            <span>Study Plan • 7 min read</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts-section" id="articles">
+      <div class="container">
+        <div class="section-head">
+          <h2>My Latest Posts</h2>
+          <p>Recent posts from my frontend learning journey.</p>
+        </div>
+
+        <div class="post-grid post-list-layout" id="postGrid">
+          <article class="post-card" data-search="study plan beginner html css javascript routine">
+            <a href="post4.html" class="post-thumb-link" aria-label="Read Frontend Study Plan post">
+              <img
+                class="post-thumb"
+                src="https://picsum.photos/id/119/900/520"
+                alt="Color swatches and CSS code notes"
+                loading="lazy"
+              />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Study Plan</span>
+                <span>31 Mar 2026</span>
+              </div>
+              <h3>My Frontend Study Plan as a Beginner</h3>
+              <p>
+                In this post, I share my weekly routine, practice method, and beginner goals for
+                improving HTML, CSS, and JavaScript consistently.
+              </p>
+              <div class="post-meta-bottom">
+                <span>7 min read</span>
+                <a href="post4.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card" data-search="my journey learning web development beginner story">
+            <a href="post3.html" class="post-thumb-link" aria-label="Read My Journey post">
+              <img
+                class="post-thumb"
+                src="https://picsum.photos/id/0/900/520"
+                alt="Developer notebook showing progress and goals"
+                loading="lazy"
+              />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Personal Journey</span>
+                <span>30 Mar 2026</span>
+              </div>
+              <h3>My Journey</h3>
+              <p>
+                This is just the beginning of my web development journey. I share my goals,
+                challenges, and next learning plan.
+              </p>
+              <div class="post-meta-bottom">
+                <span>6 min read</span>
+                <a href="post3.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card" data-search="learning html css basics beginner styling">
+            <a href="post2.html" class="post-thumb-link" aria-label="Read Learning HTML and CSS post">
+              <img
+                class="post-thumb"
+                src="https://picsum.photos/id/180/900/520"
+                alt="Notes and laptop while learning HTML and CSS"
+                loading="lazy"
+              />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Learning Notes</span>
+                <span>27 Mar 2026</span>
+              </div>
+              <h3>Learning HTML &amp; CSS</h3>
+              <p>
+                I am learning how to design websites with HTML and CSS. This post covers basic
+                structure, styling, and my beginner tips.
+              </p>
+              <div class="post-meta-bottom">
+                <span>7 min read</span>
+                <a href="post2.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card" data-search="first blog first website beginner project">
+            <a href="post1.html" class="post-thumb-link" aria-label="Read My First Blog post">
+              <img
+                class="post-thumb"
+                src="https://picsum.photos/id/48/900/520"
+                alt="Laptop setup for first coding project"
+                loading="lazy"
+              />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Beginner Project</span>
+                <span>25 Mar 2026</span>
+              </div>
+              <h3>My First Blog</h3>
+              <p>
+                This is my first website project. In this post, I share what I built and what I
+                learned while making my first blog page.
+              </p>
+              <div class="post-meta-bottom">
+                <span>6 min read</span>
+                <a href="post1.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-card">
+        <h2>About Me</h2>
+        <p>
+          Hi, I am Amna Khan, and I am a beginner student learning web development. I built this
+          blog project as part of my university lab work and as a personal space to track my
+          frontend learning progress.I enjoy simple and clean website design. Right now, I am regularly practicing better HTML
+          structure, readable CSS layout, and small JavaScript interactions so I can build more
+          professional projects step by step.
+        </p>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="container newsletter-wrap">
+        <div>
+          <h2>Contact Me</h2>
+          <p>Email: amnakhan.dev123@gmail.com</p>
+          <p>
+            GitHub: <a href="https://github.com/amna-khan14" target="_blank" rel="noopener noreferrer">github.com/amna-khan14</a>
+          </p>          
+          <a href="mailto:amnakhan.dev123@gmail.com" class="btn btn-secondary">Send Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Amna Khan's Blog</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

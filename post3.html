@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Journey | Amna Khan Blog</title>
+  <meta
+    name="description"
+    content="A personal post about my web development learning journey."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Amna Khan Blog</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-main">
+    <div class="article-wrap">
+      <a href="index.html#articles" class="back-link">← Back to all posts</a>
+
+      <header class="article-header">
+        <span class="badge">Personal Journey</span>
+        <h1>My Journey</h1>
+        <p class="article-meta">By Amna Khan • 30 Mar 2026 • 6 min read</p>
+        <p class="article-intro">
+          This is just the beginning of my web development journey. I am learning new things every
+          day and trying to build small projects to improve my confidence.
+        </p>
+      </header>
+
+      <article class="article-content">
+        <h2>Why I started learning web development</h2>
+        <p>
+          I wanted to create my own websites and understand how web pages work. At first, many things
+          felt difficult, but practice made everything clearer.
+        </p>
+        <p>
+          My goal is not speed. My goal is consistency. I try to learn a little every day and build
+          real examples.
+        </p>
+
+        <h2>A small progress tracker I use</h2>
+        <p>
+          Writing my progress helps me stay focused. I use a very simple list to track what I learned.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>progress-notes.txt</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-comment">Week 1</span>
+- Learned HTML headings, paragraphs, links
+- Built first simple page
+
+<span class="token-comment">Week 2</span>
+- Learned colors, spacing, and fonts in CSS
+- Built a basic responsive layout
+
+<span class="token-comment">Week 3</span>
+- Added simple JavaScript for button click
+- Published my blog project</code></pre>
+        </div>
+
+        <h2>Simple JavaScript that helped me</h2>
+        <p>
+          I started with small scripts first. For example, showing a message after a button click gave
+          me confidence to understand how JavaScript connects with HTML.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>script.js (beginner example)</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-key">const</span> button = document.querySelector(<span class="token-str">"#helloBtn"</span>);
+<span class="token-key">const</span> message = document.querySelector(<span class="token-str">"#message"</span>);
+
+button.addEventListener(<span class="token-str">"click"</span>, () =&gt; {
+  message.textContent = <span class="token-str">"Welcome to my learning journey!"</span>;
+});</code></pre>
+        </div>
+
+        <h3>My current goals</h3>
+        <ul>
+          <li>Improve responsive design skills.</li>
+          <li>Write cleaner CSS with better structure.</li>
+          <li>Build more small and complete projects.</li>
+          <li>Learn JavaScript basics deeply.</li>
+        </ul>
+
+        <h2>Final note</h2>
+        <p>
+          I am still a beginner, but every project teaches me something valuable. This blog is part of
+          my progress, and I will keep updating it as I learn more.
+        </p>
+      </article>
+
+      <section class="related-posts">
+        <h3>Related Posts</h3>
+        <div class="related-links">
+          <a href="post2.html">Learning HTML &amp; CSS</a>
+          <a href="post4.html">My Frontend Study Plan as a Beginner</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Amna Khan's Blog</p>
+      <div class="social-links">
+        <a href="https://github.com/amna25ce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://amnakhan10011.github.io/amnakhan10011/#home" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="#">X</a>
+      </div>
+      <div class="quick-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

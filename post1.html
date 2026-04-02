@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Blog | Amna Khan Blog</title>
+  <meta
+    name="description"
+    content="My first website project experience as a beginner developer."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Amna Khan Blog</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-main">
+    <div class="article-wrap">
+      <a href="index.html#articles" class="back-link">← Back to all posts</a>
+
+      <header class="article-header">
+        <span class="badge">Beginner Project</span>
+        <h1>My First Blog</h1>
+        <p class="article-meta">By Amna Khan • 25 Mar 2026 • 6 min read</p>
+        <p class="article-intro">
+          This is my first website project. I wanted to build a simple blog page using only HTML,
+          CSS, and a little JavaScript. I focused on clean layout, readable text, and a basic design
+          that works on both desktop and mobile.
+        </p>
+      </header>
+
+      <article class="article-content">
+        <h2>How I planned my first project</h2>
+        <p>
+          I started with a very simple file structure so I would not get confused. My goal was to
+          learn the basics first, not to make a complex app.
+        </p>
+        <p>
+          I made three files: one for structure, one for styling, and one for interactions. This
+          helped me understand what each part does.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>simple-structure.txt</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-comment"># Beginner-friendly blog project</span>
+index.html
+style.css
+script.js
+post1.html
+post2.html
+post3.html
+post4.html</code></pre>
+        </div>
+
+        <h3>What I learned from this approach</h3>
+        <ul>
+          <li>Small steps are easier to understand and debug.</li>
+          <li>HTML structure becomes clear before styling starts.</li>
+          <li>CSS is easier when class names are clean and simple.</li>
+          <li>JavaScript can stay short and focused.</li>
+        </ul>
+
+        <h2>Basic HTML layout I used</h2>
+        <p>
+          For my first page, I used semantic sections like header, main, and footer. This made my page
+          readable and easier to style.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>index.html (starter layout)</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-key">&lt;header&gt;</span>
+  <span class="token-key">&lt;nav&gt;</span>Home | About | Contact<span class="token-key">&lt;/nav&gt;</span>
+<span class="token-key">&lt;/header&gt;</span>
+
+<span class="token-key">&lt;main&gt;</span>
+  <span class="token-key">&lt;section&gt;</span>
+    <span class="token-key">&lt;h1&gt;</span>My First Blog<span class="token-key">&lt;/h1&gt;</span>
+    <span class="token-key">&lt;p&gt;</span>This is my first website project.<span class="token-key">&lt;/p&gt;</span>
+  <span class="token-key">&lt;/section&gt;</span>
+<span class="token-key">&lt;/main&gt;</span>
+
+<span class="token-key">&lt;footer&gt;</span>© 2026 Amna Khan<span class="token-key">&lt;/footer&gt;</span></code></pre>
+        </div>
+
+        <h2>Simple tips for beginners</h2>
+        <p>
+          My biggest lesson is to keep everything simple in the first projects. You do not need to
+          use advanced tools when learning. Good basics are enough for a strong start.
+        </p>
+
+        <h3>Checklist I followed</h3>
+        <ul>
+          <li>Write clean HTML first.</li>
+          <li>Add CSS spacing and colors slowly.</li>
+          <li>Test on laptop and phone screen.</li>
+          <li>Keep JavaScript only for small interactions.</li>
+        </ul>
+
+        <p>
+          This project gave me confidence to continue learning. Building a working blog with simple
+          tools helped me understand how websites are created from scratch.
+        </p>
+      </article>
+
+      <section class="related-posts">
+        <h3>Related Posts</h3>
+        <div class="related-links">
+          <a href="post2.html">Learning HTML &amp; CSS</a>
+          <a href="post4.html">My Frontend Study Plan as a Beginner</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Amna Khan's Blog</p>
+      <div class="social-links">
+        <a href="https://github.com/amna25ce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://amnakhan10011.github.io/amnakhan10011/#home" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="#">X</a>
+      </div>
+      <div class="quick-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
